@@ -31,7 +31,7 @@ jobs:
           --hidden-import=sklearn.ensemble._forest
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ecgviewer-exe
         path: dist/ecgviewer.exe
