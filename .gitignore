@@ -1,0 +1,20 @@
+# PyInstaller build artifacts
+/dist/
+/build/
+*.spec
+
+# Linux binary
+ecgviewer
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments (if any)
+venv/
+.env/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
