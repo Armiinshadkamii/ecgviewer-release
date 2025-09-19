@@ -26,8 +26,8 @@ jobs:
 
     - name: Build EXE
       run: |
-        pyinstaller main.py --onefile --windowed --name ecgviewer --icon=assets/icon.ico ^
-          --hidden-import=PIL._tkinter_finder ^
+        pyinstaller main.py --onefile --windowed --name ecgviewer --icon=assets/icon.ico `
+          --hidden-import=PIL._tkinter_finder `
           --hidden-import=sklearn.ensemble._forest
 
     - name: Upload artifact
